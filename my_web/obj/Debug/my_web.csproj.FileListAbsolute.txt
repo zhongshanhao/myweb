@@ -1,0 +1,5 @@
+D:\MyWeb\my_web\bin\my_web.dll
+D:\MyWeb\my_web\bin\my_web.pdb
+D:\MyWeb\my_web\obj\Debug\my_web.dll
+D:\MyWeb\my_web\obj\Debug\my_web.pdb
+D:\MyWeb\my_web\obj\Debug\my_web.csprojResolveAssemblyReference.cache
