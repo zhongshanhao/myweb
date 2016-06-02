@@ -3,3 +3,8 @@ D:\MyWeb\my_web\bin\my_web.pdb
 D:\MyWeb\my_web\obj\Debug\my_web.dll
 D:\MyWeb\my_web\obj\Debug\my_web.pdb
 D:\MyWeb\my_web\obj\Debug\my_web.csprojResolveAssemblyReference.cache
+E:\myweb\my_web\bin\my_web.dll
+E:\myweb\my_web\bin\my_web.pdb
+E:\myweb\my_web\obj\Debug\my_web.csprojResolveAssemblyReference.cache
+E:\myweb\my_web\obj\Debug\my_web.dll
+E:\myweb\my_web\obj\Debug\my_web.pdb

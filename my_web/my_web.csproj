@@ -59,6 +59,7 @@
   <ItemGroup>
     <Content Include="bianji.html" />
     <Content Include="change.aspx" />
+    <Content Include="js\ajax.js" />
     <Content Include="login.html" />
     <Content Include="my_info.aspx" />
     <Content Include="my_info.html" />
@@ -108,6 +109,11 @@
       <DependentUpon>Web.config</DependentUpon>
     </None>
     <Content Include="zzzz.ashx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="ashx\" />
+    <Folder Include="aspx\" />
+    <Folder Include="html\" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
