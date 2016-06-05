@@ -25,11 +25,11 @@ namespace my_web
             string str7 = context.Request["password8"];
           
             if (str3 != str4)
-                context.Response.Write("<script>alert('两次输入密码不一致！！');location.href = 'zzzz.ashx';</script>");
+                context.Response.Write("<script>alert('两次输入密码不一致！！');location.href = 'register.ashx';</script>");
             else
             {
                 Sqlhelper1.ExecuteScalar("insert into student (id,keys,name,xingbie,age)values (@id,@keys,@name,@xingbie,@age)", new SqlParameter("@id", str2), new SqlParameter("@keys", str3), new SqlParameter("@name", str5), new SqlParameter("@xingbie", str6), new SqlParameter("@age", str7));
-                context.Response.Write("<script>alert('注册成功 ');location.href = 'login.html';</script>");
+                context.Response.Write("<script>alert('注册成功 ');location.href = '../html/login.html';</script>");
             }
 
         }

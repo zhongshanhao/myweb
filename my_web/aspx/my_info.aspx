@@ -10,7 +10,7 @@
 <body>
     <%--<form action="use_to_change_my_information.ashx?ID=<%=student_info.Rows[0]["ID"]%>" method="post">--%>
 
-    <form action="my_info2.aspx" method="post">
+<%--    <form action="my_info2.aspx" method="post">--%>
     <div>
         <h1>用户名：<%=id %></h1>
 <%--        <p>姓名：<%=dt.Rows[0]["name"].ToString() %></p>
@@ -33,7 +33,7 @@
                 <td><%=da.Rows[j]["xingbie"].ToString() %></td>
                 <td><%=da.Rows[j]["age"].ToString() %></td>              
               <%--  <td><button onclick="button1()">删除</button></td>  --%>
-                <td> <th><a href="delete.ashx?id=<%=da.Rows[j]["id"] %>"><h4 align="center" style="color:"><%="删除"%></h4></a></th></td>
+                <td> <th><a href="../ashx/delete.ashx?id=<%=da.Rows[j]["id"] %>"><h4 align="center" style="color:"><%="删除"%></h4></a></th></td>
                      <td> <th><a href="change.aspx?id=<%=da.Rows[j]["id"] %>"><h4 align="center" style="color:"><%="编辑"%></h4></a></th></td>               
             </tr> <%} %>
             

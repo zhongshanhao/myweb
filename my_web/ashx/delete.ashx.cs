@@ -18,7 +18,7 @@ namespace my_web
             context.Response.ContentType = "text/html";
             int id = Convert.ToInt32(context.Request["id"]);
             Sqlhelper1.ExecuteScalar("delete from student where id=@id",new SqlParameter("@id", id));
-            context.Response.Write("<script>confirm('删除成功');</script>");
+            context.Response.Write("<script>confirm('删除成功');location.href = '../aspx/my_info.aspx';</script>");
         }
 
         public bool IsReusable

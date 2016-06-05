@@ -57,64 +57,58 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="bianji.html" />
-    <Content Include="change.aspx" />
+    <Content Include="aspx\change.aspx" />
     <Content Include="js\ajax.js" />
-    <Content Include="login.html" />
-    <Content Include="my_info.aspx" />
-    <Content Include="my_info.html" />
+    <Content Include="html\login.html" />
+    <Content Include="aspx\my_info.aspx" />
     <Content Include="Web.config">
       <SubType>Designer</SubType>
     </Content>
-    <Content Include="zzzz.html" />
+    <Content Include="html\register.html" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="change.ashx.cs">
+    <Compile Include="ashx\change.ashx.cs">
       <DependentUpon>change.ashx</DependentUpon>
     </Compile>
-    <Compile Include="change.aspx.cs">
+    <Compile Include="aspx\change.aspx.cs">
       <DependentUpon>change.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="change.aspx.designer.cs">
+    <Compile Include="aspx\change.aspx.designer.cs">
       <DependentUpon>change.aspx</DependentUpon>
     </Compile>
-    <Compile Include="delete.ashx.cs">
+    <Compile Include="ashx\delete.ashx.cs">
       <DependentUpon>delete.ashx</DependentUpon>
     </Compile>
-    <Compile Include="login.ashx.cs">
+    <Compile Include="ashx\login.ashx.cs">
       <DependentUpon>login.ashx</DependentUpon>
     </Compile>
-    <Compile Include="my_info.aspx.cs">
+    <Compile Include="aspx\my_info.aspx.cs">
       <DependentUpon>my_info.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="my_info.aspx.designer.cs">
+    <Compile Include="aspx\my_info.aspx.designer.cs">
       <DependentUpon>my_info.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Sqlhelper1.cs" />
-    <Compile Include="zzzz.ashx.cs">
-      <DependentUpon>zzzz.ashx</DependentUpon>
+    <Compile Include="ashx\register.ashx.cs">
+      <DependentUpon>register.ashx</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="login.ashx" />
-    <Content Include="delete.ashx" />
-    <Content Include="change.ashx" />
+    <Content Include="ashx\login.ashx" />
+    <Content Include="ashx\delete.ashx" />
+    <Content Include="ashx\change.ashx" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
     <None Include="Web.Release.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
-    <Content Include="zzzz.ashx" />
+    <Content Include="ashx\register.ashx" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="ashx\" />
-    <Folder Include="aspx\" />
-    <Folder Include="html\" />
-  </ItemGroup>
+  <ItemGroup />
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
